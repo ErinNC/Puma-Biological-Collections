@@ -2,6 +2,7 @@ from flask_sqlalchemy import SQLAlchemy
 
 DB = SQLAlchemy()
 
+
 class Puma(DB.Model):
     # ID items["uuid"]
     id = DB.Column(DB.String, primary_key=True)
